@@ -1,0 +1,18 @@
+BookTripVibe CRM Android conversion
+
+Source CRM: https://booktripvibe.com/crm/
+Launch URL: https://booktripvibe.com/crm/login
+Reference architecture: supplied GoeARTH/GOAT CRM Android project
+
+No BookTripVibe CRM PHP/database files were modified for this Android conversion.
+The Android app loads the live CRM, so future CRM-side fixes and data changes appear in the app without rebuilding unless Android wrapper behavior itself changes.
+
+Android wrapper includes:
+- BookTripVibe branding and package ID
+- Direct CRM login launch
+- Session/cookie persistence
+- Mobile responsive WebView behavior
+- File upload support
+- Download support including generated blob/data PDFs
+- Location permission support
+- Android back navigation and network retry
